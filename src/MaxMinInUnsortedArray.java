@@ -23,6 +23,6 @@ public class MaxMinInUnsortedArray {
         for(int i = 0 ; i < n ; i++)
             arr[i] = sc.nextInt();
         System.out.print("Max = " + solution(arr)[0] + " Min = " + solution(arr)[1]);
-
+        sc.close();
     }
 }
